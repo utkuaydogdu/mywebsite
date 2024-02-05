@@ -1,0 +1,93 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+background-color: white;
+text-align: center;
+color: brown;
+padding: 1rem;
+
+}
+
+nav {
+
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+}
+
+nav a {
+text-decoration: none;
+padding: 0.5%;
+color: antiquewhite;
+}
+
+nav a:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+main {
+padding: 0.5%;
+display: table;
+
+}
+
+ul{
+    list-style: none;
+}
+
+section {
+
+    padding-bottom: 0.5%;
+}
+
+footer {
+    background-color:  white;
+    text-align: center;
+    padding: 0.5;
+    }
+
+
+div#left{
+    width: 70%;
+    float: left;
+    background-color: white;
+    min-width: 350px;
+    
+}
+
+
+aside {
+    width: 27%;
+    float: right;
+    padding: 1%;
+    display: block;
+
+}
+
+
+
+label span {
+
+    margin: 1px;
+    width: 50px;
+    display: block;
+   
+}
+
+label small {
+    color: red;
+}
